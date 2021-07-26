@@ -1,0 +1,149 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\320145763\\Documents\\new_folder_3\\SimpleAPISln\\test\\SimpleAPI.Test\\SimpleAPI.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\320145763\\Documents\\new_folder_3\\SimpleAPISln\\src\\SimpleAPI\\SimpleAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\320145763\\Documents\\new_folder_3\\SimpleAPISln\\src\\SimpleAPI\\SimpleAPI.csproj",
+        "projectName": "SimpleAPI",
+        "projectPath": "C:\\Users\\320145763\\Documents\\new_folder_3\\SimpleAPISln\\src\\SimpleAPI\\SimpleAPI.csproj",
+        "packagesPath": "C:\\Users\\320145763\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\320145763\\Documents\\new_folder_3\\SimpleAPISln\\src\\SimpleAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\320145763\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\bbrdsrv3.bbl.ms.philips.com\\upgrade\\Testautomation\\Daedalus\\NuGet_Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tfs.bbl.ms.philips.com/tfs/BBN%20Solutions/_packaging/Automation/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\320145763\\Documents\\new_folder_3\\SimpleAPISln\\test\\SimpleAPI.Test\\SimpleAPI.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\320145763\\Documents\\new_folder_3\\SimpleAPISln\\test\\SimpleAPI.Test\\SimpleAPI.Test.csproj",
+        "projectName": "SimpleAPI.Test",
+        "projectPath": "C:\\Users\\320145763\\Documents\\new_folder_3\\SimpleAPISln\\test\\SimpleAPI.Test\\SimpleAPI.Test.csproj",
+        "packagesPath": "C:\\Users\\320145763\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\320145763\\Documents\\new_folder_3\\SimpleAPISln\\test\\SimpleAPI.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\320145763\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\bbrdsrv3.bbl.ms.philips.com\\upgrade\\Testautomation\\Daedalus\\NuGet_Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tfs.bbl.ms.philips.com/tfs/BBN%20Solutions/_packaging/Automation/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\320145763\\Documents\\new_folder_3\\SimpleAPISln\\src\\SimpleAPI\\SimpleAPI.csproj": {
+                "projectPath": "C:\\Users\\320145763\\Documents\\new_folder_3\\SimpleAPISln\\src\\SimpleAPI\\SimpleAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
